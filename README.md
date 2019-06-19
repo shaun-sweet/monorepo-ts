@@ -4,6 +4,7 @@ Welcome to Shaun's monorepo.  The philosophy driving this monorepo's design is t
 
 1. [Installation](#installation)
 2. [Contributing](#contributing)
+3. [Usage](#usage)
 ## Installation
 To import and use a component in your project, simply add a "@
 ## Contributing
@@ -23,3 +24,14 @@ This will load a storybook development environment that aggregates every `*.stor
 
   This will walk you through a prompt.  You can eventually do these commits manually in your favorite editor.  They will just have to follow a specific format.  
   TODO: Setup a WIP tag
+
+## Usage
+
+### Common Tasks
+
+- Adding a peer dependency `yarn workspace @ssweet/input add -P react styled-components`
+
+
+- Adding a package in this monorepo as a dependency of yours package 
+
+  `yarn lerna add @ssweet/input --scope=@ssweet/form`

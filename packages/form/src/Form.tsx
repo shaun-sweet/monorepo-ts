@@ -16,13 +16,17 @@ export interface LoginFormProps {
   onClick?: () => void;
 }
 
-export const LoginForm: React.SFC<LoginFormProps> = ({ onClick }) => (
-  <Wrapper>
-    <Input id="name" label="Name" />
-    <Input id="password" label="Password" />
+export const LoginForm: React.SFC<LoginFormProps> = ({ onClick }) => {
+  const test = 'hello';
+  console.log(test);
+  return (
+    <Wrapper>
+      <Input id="name" label="Name" />
+      <Input id="password" label="Password" />
 
-    <ButtonsWrapper>
-      <button onClick={onClick}>Log in</button>
-    </ButtonsWrapper>
-  </Wrapper>
-);
+      <ButtonsWrapper>
+        <button onClick={onClick}>Log in</button>
+      </ButtonsWrapper>
+    </Wrapper>
+  );
+};

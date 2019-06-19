@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "build:declarations": "lerna exec --parallel 'tsc --project ./tsconfig.build.json'",
+    "build:declarations": "lerna exec 'tsc --project ./tsconfig.build.json'",
     "postbuild": "yarn build:declarations",
     "commit": "git-cz",
     "fix": "run-p -c lint:ts-* --fix",

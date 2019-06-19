@@ -30,7 +30,11 @@ const Wrapper = styled.div`
   margin: 10px;
 `;
 
-const Label = styled<LabelProps, 'label'>('label')`
+type ILabel = {
+  labelWidth?: number
+}
+
+const Label = styled.label<ILabel>`
   margin-right: 10px;
   font-weight: bold;
   width: ${({ labelWidth = 100 }) => labelWidth}px;

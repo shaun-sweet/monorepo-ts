@@ -13,8 +13,9 @@
       "*": ["node_modules", "packages"]
     }
   },
+
   "include": ["packages"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "packages/**/dist", "react-native"],
   "awesomeTypescriptLoaderOptions": {
     "useBabel": true,
     "babelCore": "@babel/core"

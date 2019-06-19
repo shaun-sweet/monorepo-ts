@@ -5,7 +5,7 @@ import * as React from 'react';
 import { Input } from './Input';
 
 storiesOf('Input', module)
-  .add('default', () => <Input />)
+  .add('default', () => <Input label="THIS IS A TEST LABEL" />)
   .add('with label', () => (
     <Input id="test" label={text('Label', 'Username')} />
   ))

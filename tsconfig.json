@@ -10,6 +10,7 @@
     "rootDir": "./",
     "baseUrl": "./",
     "paths": {
+      "@ssweet/*": ["packages/*/src"],
       "*": ["node_modules", "packages"]
     }
   },

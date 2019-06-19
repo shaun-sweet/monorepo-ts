@@ -51,6 +51,7 @@ export const Input: React.SFC<InputProps & InputLabelProps> = ({
   ...rest
 }) => (
   <Wrapper>
+    this is a damn input field
     {label && (
       <Label labelWidth={labelWidth} htmlFor={id}>
         {label}:

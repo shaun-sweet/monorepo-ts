@@ -6,7 +6,7 @@ Welcome to Shaun's monorepo.  The philosophy driving this monorepo's design is t
 2. [Contributing](#contributing)
 3. [Usage](#usage)
 ## Installation
-To import and use a component in your project, simply add a "@
+To import and use a component in your project, simply install it "@ssweet/<package-name>"
 ## Contributing
 
 To  get a dev server going, run these commands at the root -

@@ -1,0 +1,10 @@
+{
+  "name": "@ssweet/input",
+  "version": "1.0.0",
+  "main": "/dist/index.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "styled-components": "^4.3.1"
+  }
+}

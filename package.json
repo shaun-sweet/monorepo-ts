@@ -27,16 +27,20 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@kadira/storybook": "^2.21.0",
+    "@storybook/addon-actions": "^5.1.8",
     "@storybook/addon-knobs": "^5.1.0-rc.5",
+    "@storybook/addon-links": "^5.1.8",
+    "@storybook/react": "^5.1.8",
     "@types/node": "^12.0.8",
     "@types/react": "^16.8.20",
     "@types/storybook__addon-actions": "^3.4.3",
     "@types/storybook__addon-knobs": "^5.0.1",
     "@types/storybook__addon-links": "^3.3.5",
     "@types/storybook__react": "^4.0.2",
+    "@types/styled-components": "^4.1.16",
     "awesome-typescript-loader": "^5.2.1",
-    "babel-core": "7.0.0-bridge.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
     "commitizen": "^3.1.1",
     "cz-lerna-changelog": "^2.0.0",
     "lerna": "^3.15.0",
@@ -61,5 +65,6 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }

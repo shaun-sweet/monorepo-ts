@@ -6,7 +6,9 @@
 // When you add this file, we won't add the default configurations which is similar
 // to "React Create App". This only has babel loader to load JavaScript.
 
-module.exports = (baseConfig, env, config) => {
+module.exports = ({config}) => {
+  console.log(config)
+  // baseConfig.module = {...baseConfig.module, rules: []} 
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
     loader: require.resolve('awesome-typescript-loader'),
